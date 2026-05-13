@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Running clang-format..."
+clang-format -i src/*.c include/*.h
+git add src/*.c include/*.h
+

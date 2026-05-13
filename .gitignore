@@ -1,0 +1,31 @@
+```
+# --- Binaires C ---
+c-batch-ci
+*.o
+
+# --- Fichiers générés par make ---
+*.out
+*.exe
+
+# --- Archives Docker ---
+*.tar
+
+# --- Logs persistants ---
+logs/*
+!logs/.gitkeep
+
+# --- Données temporaires ---
+*.tmp
+*.swp
+
+# --- Fichiers Kubernetes générés ---
+k8s/job.yaml
+*.yaml~
+*.bak
+
+# --- MacOS / Linux / éditeurs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

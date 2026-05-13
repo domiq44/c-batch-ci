@@ -1,0 +1,3 @@
+ligne1
+error: pb
+ligne3
